@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #fff;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	height: 50px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+nav li {
+	float: left;
+	margin-left: 70px;
+
+}
+
+nav form {
+	display: inline-block;
+}
+
+p {
+	color: #fff;
+	text-align: center;
+}
+
+.form-signup {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	text-align: center;
+}
